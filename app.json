@@ -12,9 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#1a1a1a"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.newroyalelectricals.app",
@@ -25,18 +23,6 @@
         }
       }
     },
-    {
-  "expo": {
-    "name": "New Royal Electricals",
-    "slug": "new-royal-electricals",
-    ...
-    "extra": {
-      "eas": {
-        "projectId": "bde5cc91-71ab-408f-9842-fd0480e8bdc4"
-      }
-    }
-  }
-}
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -44,10 +30,7 @@
       },
       "package": "com.newroyalelectricals.app",
       "versionCode": 1,
-      "permissions": [
-        "INTERNET",
-        "ACCESS_NETWORK_STATE"
-      ]
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -61,6 +44,14 @@
           "resizeMode": "contain"
         }
       ]
-    ]
+    ],
+    "androidStatusBar": {
+      "backgroundColor": "#1a1a1a"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bde5cc91-71ab-408f-9842-fd0480e8bdc4"
+      }
+    }
   }
 }
